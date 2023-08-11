@@ -11,8 +11,8 @@ const HomePage = () => {
     const Cont = () => {
         return (
             <>
-                <div className='col-md-4 p-2 col-6 text-white text-center'>
-                    <div className='d-flex justify-content-center flex-column' style={{ height: '300px', backgroundColor: 'rgba(134, 145, 145, 0.3)' }}>
+                <div className='col-md-4 p-2 col-6 text-center' style={{transform:'translateY(-70px)', zIndex:'1'}}>
+                    <div className='d-flex shadow-lg justify-content-center bg-light flex-column' style={{ height: '200px'}}>
                         <div className='p-3'>
                             <BsGearWideConnected size={90} />
                             <div className='py-3' style={{ fontSize: '10px' }}>
@@ -32,14 +32,14 @@ const HomePage = () => {
             <div>
 
                 <div style={{ minHeight: "100vh", marginTop: '60px' }}>
-                    <div style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>
+                    <div style={{  }}>
                        <Carousel/>
-                        <div className='px-3 bg' style={{ paddingBottom: "200px" }}>
+                        <div className='px-3 ' style={{ paddingBottom: "" }}>
                             <div>
                                 <div className='row'>
-                                    <div className='col-md-1'></div>
-                                    <div className='col-12 col-md-10'>
-                                        <div>
+                                    <div className='col-md-2'></div>
+                                    <div className='col-12 col-md-8'>
+                                        <div >
                                             <div className='row'>
                                                 <Cont />
                                                 <Cont />
@@ -47,49 +47,24 @@ const HomePage = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-1'></div>
+                                    <div className='col-md-2'></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className='' style={{ overflow: 'hidden' }}>
-                    <div className='row'>
-                        <div className='col-md-4 d-none d-md-block col-12' >
-                            <div>
-                                <img src={image1} width='100%' />
-                            </div>
-                        </div>
-                        <div className='col-md-8 col-12 p-5'>
-                            <div className='row' style={{ height: '100%' }}>
-                                <div className='col-md-1'></div>
-                                <div className='col-md-10 col-12' >
-                                    <div className='d-flex flex-column justify-content-center ' style={{ height: '100%' }}>
+                    <div className='text-black'>
+                        <div className='p-3'>
+                            <div className='row'>
+                                <div className='col-1'></div>
+                                <div className='col-10'>
+                                    <div>
                                         <div>
-                                            <div className=''>
-                                                <div className='h3'>We are here to serve you</div>
-                                                <div className='display-3'>
-                                                    Contact us so that we can give you professional work, because we are the best in what we do
-                                                </div>
-                                                <div className='fw-bold fs-5'>
-                                                    need more convincing? no problem here are some of the services we offer
-                                                </div>
-                                                <div className='py-3'>
-                                                    <button className='btn btn-outline-danger rounded-0 btn-lg'>Check out our services</button>
-                                                </div>
-                                            </div>
+                                            <div className='fs-3'>Company overview</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-md-1'></div>
+                                <div className='col-1'></div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div className='' style={{ minHeight: '300px', background: `url(${image3}) center no-repeat`, backgroundSize: '100% auto' }}>
-
                         </div>
                     </div>
                 </div>

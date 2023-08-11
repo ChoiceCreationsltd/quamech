@@ -6,7 +6,7 @@ import image4 from '../../Images/gears-cogwheels.jpg'
 const Carousel = () => {
     return (
         <>
-            <div >
+            <div style={{zIndex:'-1'}}>
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner" style={{ height: '75vh' }}>
                         <div class="carousel-item active" style={{}}>

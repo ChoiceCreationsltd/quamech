@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.1120ccf4.css",
-    "main.js": "/static/js/main.b4938cc3.js",
+    "main.css": "/static/css/main.5db16932.css",
+    "main.js": "/static/js/main.fc9b7d77.js",
     "static/js/787.368a4efe.chunk.js": "/static/js/787.368a4efe.chunk.js",
     "static/media/close-up-metal-gears-3d-rendering.jpg": "/static/media/close-up-metal-gears-3d-rendering.5fef01445ed177cdaa5e.jpg",
     "static/media/gear-metal-wheels-close-up.jpg": "/static/media/gear-metal-wheels-close-up.d846c90bf38813454b09.jpg",
     "static/media/gears-cogwheels.jpg": "/static/media/gears-cogwheels.0515e1005dadf60eef87.jpg",
     "static/media/image1.png": "/static/media/image1.f2be62372cac0067db00.png",
+    "static/media/construction-silhouette.jpg": "/static/media/construction-silhouette.63e9ab589e60e087052e.jpg",
+    "static/media/construction-site-silhouettes.jpg": "/static/media/construction-site-silhouettes.975a4e9c3b224b334d93.jpg",
+    "static/media/future-building-const.jpg": "/static/media/future-building-const.bd27ee54b449ed5e31fa.jpg",
+    "static/media/african-business-woman-grey-wall-looking.jpg": "/static/media/african-business-woman-grey-wall-looking.433b31049fd003c18145.jpg",
     "static/media/image1.jpg": "/static/media/image1.7b54d1ce0afec1ab85e3.jpg",
+    "static/media/QWA LOGO.png": "/static/media/QWA LOGO.6ee40da46084e7bc20da.png",
     "static/media/qwamech logo PNG.png": "/static/media/qwamech logo PNG.72d559d67f8c88dcbc2c.png",
+    "static/media/choice.png": "/static/media/choice.35c3a701235339321f52.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.1120ccf4.css.map": "/static/css/main.1120ccf4.css.map",
-    "main.b4938cc3.js.map": "/static/js/main.b4938cc3.js.map",
+    "main.5db16932.css.map": "/static/css/main.5db16932.css.map",
+    "main.fc9b7d77.js.map": "/static/js/main.fc9b7d77.js.map",
     "787.368a4efe.chunk.js.map": "/static/js/787.368a4efe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1120ccf4.css",
-    "static/js/main.b4938cc3.js"
+    "static/css/main.5db16932.css",
+    "static/js/main.fc9b7d77.js"
   ]
 }

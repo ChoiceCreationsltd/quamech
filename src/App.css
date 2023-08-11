@@ -7,11 +7,34 @@
   opacity: 0.5;
   transition: 0.6s;
 }
-.nav-custom-links .active {
-  opacity: 0.9;
-  color: #ff0080;
+.nav-custom-links .active{
+  opacity: 0.5;
+}
+.nav-custom-links .active .line{
+  background-color: red;
+  height: 5px;
+  width: 50%;
 }
 .navbar-cust {
   transition: all 0.5s;
   background-color: rgba(21, 84, 154);
+}
+
+.btnlink {
+  background-color: #ddd;
+  border: #ddd;
+  padding: 10px;
+  transition: 0.5s;
+  margin-right: 5px
+
+}
+.btnlink:hover {
+  background-color: #aaa;
+  color: #ddd;
+  transition: 0.5s;
+}
+
+.btnlinkactive {
+  color: #ddd;
+  background-color: #aaa;
 }

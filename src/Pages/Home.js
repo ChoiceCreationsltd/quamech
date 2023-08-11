@@ -4,6 +4,8 @@ import image2 from '../Images/gear-metal-wheels-close-up.jpg'
 import image3 from '../Images/close-up-metal-gears-3d-rendering.jpg'
 import image4 from '../Images/gears-cogwheels.jpg'
 import { BsGearWideConnected } from 'react-icons/bs'
+import { CCarousel, CCarouselItem, CImage } from '@coreui/react'
+import Carousel from './homePages/Carousel'
 
 const HomePage = () => {
     const Cont = () => {
@@ -28,41 +30,20 @@ const HomePage = () => {
     return (
         <>
             <div>
-                <div style={{ minHeight: "100vh", background: `url(${image}) no-repeat fixed  right`, backgroundSize: 'cover' }}>
-                    <div style={{ backgroundColor: 'rgba(0,0,0,0.5)', height: '100%' }}>
-                        <div className='p-3' style={{ paddingTop: '100px'}}>
-                            <div style={{ height: '60vh' }} className='d-flex justify-content-center flex-column'>
-                                <div>
-                                    <div className=' text-center h-100'>
-                                        <div className=''>
-                                            <div className=''>
-                                                <div className='text-white' style={{}}>
-                                                    <div className='fw-bold display-5'>
-                                                        QUAMECH ENGINEERING <br /> SERVICES
-                                                    </div>
-                                                    <div className='fs-4 fw-light py-4'>
-                                                        some write up for the engineering company to identify themselves
-                                                    </div>
-                                                    <div>
-                                                        <button className='btn btn-outline-info text-white btn-lg rounded-0'>Contact us now</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='px-3 bg' style={{paddingBottom:"200px"}}>
+
+                <div style={{ minHeight: "100vh", marginTop: '60px' }}>
+                    <div style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>
+                       <Carousel/>
+                        <div className='px-3 bg' style={{ paddingBottom: "200px" }}>
                             <div>
                                 <div className='row'>
                                     <div className='col-md-1'></div>
                                     <div className='col-12 col-md-10'>
                                         <div>
                                             <div className='row'>
-                                              <Cont/>
-                                              <Cont/>
-                                              <Cont/>
+                                                <Cont />
+                                                <Cont />
+                                                <Cont />
                                             </div>
                                         </div>
                                     </div>
@@ -72,18 +53,18 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className='' style={{overflow:'hidden'}}>
+                <div className='' style={{ overflow: 'hidden' }}>
                     <div className='row'>
                         <div className='col-md-4 d-none d-md-block col-12' >
                             <div>
-                                <img src={image1} width='100%'/>
+                                <img src={image1} width='100%' />
                             </div>
                         </div>
                         <div className='col-md-8 col-12 p-5'>
-                            <div className='row' style={{height:'100%'}}>
+                            <div className='row' style={{ height: '100%' }}>
                                 <div className='col-md-1'></div>
                                 <div className='col-md-10 col-12' >
-                                    <div className='d-flex flex-column justify-content-center ' style={{height:'100%'}}>
+                                    <div className='d-flex flex-column justify-content-center ' style={{ height: '100%' }}>
                                         <div>
                                             <div className=''>
                                                 <div className='h3'>We are here to serve you</div>
@@ -107,8 +88,8 @@ const HomePage = () => {
                 </div>
                 <div>
                     <div>
-                        <div className='' style={{minHeight:'300px', background:`url(${image3}) center no-repeat`, backgroundSize:'100% auto'}}>
-                        
+                        <div className='' style={{ minHeight: '300px', background: `url(${image3}) center no-repeat`, backgroundSize: '100% auto' }}>
+
                         </div>
                     </div>
                 </div>

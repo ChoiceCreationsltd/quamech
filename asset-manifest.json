@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1120ccf4.css",
-    "main.js": "/static/js/main.803622cc.js",
+    "main.js": "/static/js/main.b4938cc3.js",
     "static/js/787.368a4efe.chunk.js": "/static/js/787.368a4efe.chunk.js",
     "static/media/close-up-metal-gears-3d-rendering.jpg": "/static/media/close-up-metal-gears-3d-rendering.5fef01445ed177cdaa5e.jpg",
     "static/media/gear-metal-wheels-close-up.jpg": "/static/media/gear-metal-wheels-close-up.d846c90bf38813454b09.jpg",
@@ -12,11 +12,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.1120ccf4.css.map": "/static/css/main.1120ccf4.css.map",
-    "main.803622cc.js.map": "/static/js/main.803622cc.js.map",
+    "main.b4938cc3.js.map": "/static/js/main.b4938cc3.js.map",
     "787.368a4efe.chunk.js.map": "/static/js/787.368a4efe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1120ccf4.css",
-    "static/js/main.803622cc.js"
+    "static/js/main.b4938cc3.js"
   ]
 }

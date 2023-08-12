@@ -51,15 +51,19 @@ const Nav = () => {
                                                 <div className="line"></div>
                                             </NavLink>
                                             <NavLink to='/About'>
-                                                About
+                                                About Us
                                                 <div className="line"></div>
                                             </NavLink>
                                             <NavLink to='/Products&Services'>
-                                                Products & Services
+                                                Our Services
+                                                <div className="line"></div>
+                                            </NavLink>
+                                            <NavLink to='/Company Profile'>
+                                                Company Profile
                                                 <div className="line"></div>
                                             </NavLink>
                                             <NavLink to='/Contactus'>
-                                                Contact us
+                                                Contact Us
                                                 <div className="line"></div>
                                             </NavLink>
                                         </div>

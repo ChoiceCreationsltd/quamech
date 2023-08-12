@@ -9,7 +9,7 @@ const Carousel = () => {
             <div style={{zIndex:'-1'}}>
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner" style={{ height: '75vh' }}>
-                        <div class="carousel-item active" style={{}}>
+                        <div class="" style={{}}>
                             <div className='px-3' style={{ position: 'absolute', top: '0', bottom: '0', right: '0', left: '0', backgroundColor: 'rgba(0,0,0,0.5)' }}>
                                 <div className='row'>
                                     <div className='col-1'></div>
@@ -25,41 +25,7 @@ const Carousel = () => {
                                                                         QUAMECH ENGINEERING <br /> SERVICES
                                                                     </div>
                                                                     <div className='fs-4 fw-light py-4'>
-                                                                        some write up for the engineering company to identify themselves
-                                                                    </div>
-                                                                    <div>
-                                                                        <button className='btn btn-outline-info text-white btn-lg rounded-0'>Contact us now</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-1'></div>
-                                </div>
-                            </div>
-                            <img src={image} class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item" style={{ overflow: 'hidden' }}>
-                            <div className='px-3' style={{ position: 'absolute', top: '0', bottom: '0', right: '0', left: '0', backgroundColor: 'rgba(0,0,0,0.5)' }}>
-                                <div className='row'>
-                                    <div className='col-1'></div>
-                                    <div className='col-10'>
-                                        <div className='' style={{}}>
-                                            <div style={{ height: '75vh' }} className='d-flex justify-content-center flex-column'>
-                                                <div>
-                                                    <div className=' text-start h-100' >
-                                                        <div className=''>
-                                                            <div className=''>
-                                                                <div className='text-white' style={{}}>
-                                                                    <div className='fw-bold display-5'>
-                                                                        QUAMECH ENGINEERING <br /> SERVICES
-                                                                    </div>
-                                                                    <div className='fs-4 fw-light py-4'>
-                                                                        some write up for the engineering company to identify themselves
+                                                                    We notice everything and have immense confidence in the solutions, we put on the table."
                                                                     </div>
                                                                     <div>
                                                                         <button className='btn btn-outline-info text-white btn-lg rounded-0'>Contact us now</button>
@@ -77,48 +43,6 @@ const Carousel = () => {
                             </div>
                             <img src={image3} class="d-block w-100" alt="..." />
                         </div>
-                        <div class="carousel-item" style={{ overflow: 'hidden' }}>
-                            <div className='px-3' style={{ position: 'absolute', top: '0', bottom: '0', right: '0', left: '0', backgroundColor: 'rgba(0,0,0,0.5)' }}>
-                                <div className='row'>
-                                    <div className='col-1'></div>
-                                    <div className='col-10'>
-                                        <div className='' style={{}}>
-                                            <div style={{ height: '75vh' }} className='d-flex justify-content-center flex-column'>
-                                                <div>
-                                                    <div className=' text-start h-100' >
-                                                        <div className=''>
-                                                            <div className=''>
-                                                                <div className='text-white' style={{}}>
-                                                                    <div className='fw-bold display-5'>
-                                                                        QUAMECH ENGINEERING <br /> SERVICES
-                                                                    </div>
-                                                                    <div className='fs-4 fw-light py-4'>
-                                                                        some write up for the engineering company to identify themselves
-                                                                    </div>
-                                                                    <div>
-                                                                        <button className='btn btn-outline-info text-white btn-lg rounded-0'>Contact us now</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-1'></div>
-                                </div>
-                            </div>
-                            <img src={image4} class="d-block w-100" alt="..." />
-                        </div>
-                        <button class="carousel-control-prev d-none" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next d-none" type="button " data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
             </div>

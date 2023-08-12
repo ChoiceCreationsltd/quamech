@@ -1,5 +1,6 @@
 import image from '../Images/qwamech logo PNG.png'
 import image2 from '../Images/choice.png'
+import {BiLogoFacebookSquare, BiLogoInstagramAlt, BiLogoLinkedinSquare, BiLogoTwitter} from 'react-icons/bi'
 const Footer = () => {
     return (
         <>
@@ -8,10 +9,22 @@ const Footer = () => {
                     <div className='row'>
                         <div className='col-1'></div>
                         <div className='col-10'>
-                            <div>
-                                <div className=' d-flex justify-content-between py-3' >
+                            <div className=''>
+                                <div className=' d-flex justify-content-around  py-3' >
                                     <div className=' d-flex justify-content-center flex-column'>
                                         <img src={image} width='200px' />
+                                    </div>
+                                    <div className='d-flex justify-content-center flex-column'>
+                                        <div className='text-center'>
+                                            <div>Stay intouch</div>
+                                            <hr/>
+                                            <div style={{gap:'10px'}} className='fs-3 d-flex justify-content-evenly'>
+                                                <BiLogoFacebookSquare/>
+                                                <BiLogoInstagramAlt/>
+                                                <BiLogoTwitter/>
+                                                <BiLogoLinkedinSquare/>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div className=' d-flex justify-content-end flex-column py-3'>
                                         <div style={{ fontSize: '11px' }}>
@@ -20,7 +33,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div style={{ fontSize: '11px' }} className='d-flex justify-content-evenly'>
+                                <div style={{ fontSize: '11px' }} className='text-center d-flex flex-column justify-content-center'>
                                     <div>Copyright &copy;2023 | Quamech Engineering Services</div>
                                     <div>Terms of use | Privacy Policy</div>
                                 </div>

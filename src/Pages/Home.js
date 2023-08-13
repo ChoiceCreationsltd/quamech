@@ -55,7 +55,7 @@ const HomePage = () => {
                         <div className='p-3'>
                             <div className='row'>
                                 <div className='col-1'></div>
-                                <div className='col-10'>
+                                <div className='col-10 fw-light'>
                                     <div>
                                         <div>
                                             <div className='fs-2'>Company overview</div>
@@ -137,8 +137,8 @@ const HomePage = () => {
                                     <div className='row'>
                                         <div className='col-1'></div>
                                         <div className='col-10'>
-                                            <div style={{minHeight:'100vh'}}>
-                                            <OurStory/>
+                                            <div className='fw-light' style={{minHeight:'100vh'}}>
+                                            <OurStory />
                                             </div>
                                         </div>
                                         <div className='col-1'></div>

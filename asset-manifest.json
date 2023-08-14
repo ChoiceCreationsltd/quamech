@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5db16932.css",
-    "main.js": "/static/js/main.7dc8d4f1.js",
+    "main.js": "/static/js/main.a4f40235.js",
     "static/js/787.368a4efe.chunk.js": "/static/js/787.368a4efe.chunk.js",
     "static/media/close-up-metal-gears-3d-rendering.jpg": "/static/media/close-up-metal-gears-3d-rendering.5fef01445ed177cdaa5e.jpg",
     "static/media/gear-metal-wheels-close-up.jpg": "/static/media/gear-metal-wheels-close-up.d846c90bf38813454b09.jpg",
@@ -12,17 +12,18 @@
     "static/media/future-building-const.jpg": "/static/media/future-building-const.bd27ee54b449ed5e31fa.jpg",
     "static/media/african-business-woman-grey-wall-looking.jpg": "/static/media/african-business-woman-grey-wall-looking.433b31049fd003c18145.jpg",
     "static/media/image1.jpg": "/static/media/image1.7b54d1ce0afec1ab85e3.jpg",
+    "static/media/close-up-metallic-equipment-part-turning-factory-generated-by-ai.jpg": "/static/media/close-up-metallic-equipment-part-turning-factory-generated-by-ai.da1b5f5c2dae72df1562.jpg",
     "static/media/QWA LOGO.png": "/static/media/QWA LOGO.6ee40da46084e7bc20da.png",
     "static/media/qwamech logo PNG.png": "/static/media/qwamech logo PNG.72d559d67f8c88dcbc2c.png",
     "static/media/choice.png": "/static/media/choice.35c3a701235339321f52.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.5db16932.css.map": "/static/css/main.5db16932.css.map",
-    "main.7dc8d4f1.js.map": "/static/js/main.7dc8d4f1.js.map",
+    "main.a4f40235.js.map": "/static/js/main.a4f40235.js.map",
     "787.368a4efe.chunk.js.map": "/static/js/787.368a4efe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5db16932.css",
-    "static/js/main.7dc8d4f1.js"
+    "static/js/main.a4f40235.js"
   ]
 }

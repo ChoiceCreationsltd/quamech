@@ -20,8 +20,8 @@ const Nav = () => {
                 <div className="bg-white" style={{ height: '400x' }}>
                     <div className="p-3">
                         <div className="row">
-                            <div className="col-1"></div>
-                            <div className="col-10">
+                            <div className="col-md-1"></div>
+                            <div className="col-12 col-md-10">
                                 <div className="d-flex justify-content-between">
                                     <div className="">
                                         <img src={image} width='150px' />
@@ -34,15 +34,15 @@ const Nav = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-1"></div>
+                            <div className="col-md-1"></div>
                         </div>
                     </div>
                 </div>
                 <div className="p-3 navbar-cust" id="navbar-cust">
                     <div className="" style={{ overflow: 'hidden' }}>
                         <div className="row">
-                            <div className="col-1"></div>
-                            <div className="col-10">
+                            <div className="col-md-1"></div>
+                            <div className="col-md-10 col-12">
                                 <div className="fw-bold text-white">
                                     <div>
                                         <div className="nav-custom-links d-none d-md-flex" style={{ gap: '20px' }}>
@@ -70,7 +70,7 @@ const Nav = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-1"></div>
+                            <div className="col-md-1"></div>
                         </div>
                     </div>
                 </div>

@@ -7,13 +7,13 @@ const Carousel = () => {
     return (
         <>
             <div style={{zIndex:'-1'}}>
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="" class="" data-bs-ride="carousel">
                     <div class="carousel-inner" style={{ height: '75vh' }}>
-                        <div class="" style={{}}>
-                            <div className='px-3' style={{ position: 'absolute', top: '0', bottom: '0', right: '0', left: '0', backgroundColor: 'rgba(0,0,0,0.5)' }}>
+                        <div class="" style={{background:`url(${image3}) center no-repeat`, backgroundSize:'cover'}}>
+                            <div className='px-3' style={{backgroundColor: 'rgba(0,0,0,0.5)'}}>
                                 <div className='row'>
-                                    <div className='col-1'></div>
-                                    <div className='col-10'>
+                                    <div className='col-md-1'></div>
+                                    <div className='col-12 col-md-10'>
                                         <div className='' style={{}}>
                                             <div style={{ height: '75vh' }} className='d-flex justify-content-center flex-column'>
                                                 <div>
@@ -38,10 +38,9 @@ const Carousel = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-1'></div>
+                                    <div className='col-md-1'></div>
                                 </div>
                             </div>
-                            <img src={image3} class="d-block w-100" alt="..." />
                         </div>
                     </div>
                 </div>

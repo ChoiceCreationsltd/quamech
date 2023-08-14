@@ -11,6 +11,16 @@ const OurStory = () => {
     let btn3 = document.getElementById('btn3')
     let btn4 = document.getElementById('btn4')
 
+    const increment = () => {
+        if(page > 3){
+            setPage(1)
+        } else {
+            setPage(page + 1)
+        }
+    }
+const decrement = () => {
+    setPage(page - 1)
+}
 
 
 
@@ -23,7 +33,7 @@ const OurStory = () => {
                 <>
                     <div>
                         <div className="row">
-                            <div className="col-6 p-5">
+                            <div className="col-12 col-md-6 p-5">
                                 <div className="">
                                     <div>
                                         <h3>Message from Our CEO</h3>
@@ -92,7 +102,7 @@ const OurStory = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6 p-5">
+                            <div className="col-12 col-md-6 p-5">
                                 <div className=" h-100" style={{ overflow: 'hidden', position: 'relative' }}>
                                     <img src={image2} width='100%' />
                                 </div>
@@ -107,7 +117,7 @@ const OurStory = () => {
                 <>
                     <div>
                         <div className="row">
-                            <div className="col-6 p-5">
+                            <div className="col-12 col-md-6 p-5">
                                 <div className="">
                                     <div>
                                         <h4>Our Mission</h4>
@@ -199,7 +209,7 @@ const OurStory = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6 p-5">
+                            <div className="col-12 col-md-6 p-5">
                                 <div className="h-100" style={{ overflow: 'hidden', position: 'relative' }}>
                                     <img src={image1} height='100%' style={{ position: "absolute"}} />
                                 </div>
@@ -214,7 +224,7 @@ const OurStory = () => {
                 <>
                     <div>
                         <div className="row">
-                            <div className="col-6 p-5">
+                            <div className="col-12 col-md-6 p-5">
                                 <div className="">
                                     <div>
                                         <h4>Who we are</h4>
@@ -275,7 +285,7 @@ const OurStory = () => {
 
                                 </div>
                             </div>
-                            <div className="col-6 p-5">
+                            <div className="col-12 col-md-6 p-5">
                                 <div className="h-100" style={{ overflow: 'hidden', position: 'relative' }}>
                                     <img src={image3} style={{ position: "absolute", height: '100%' }} />
                                 </div>
@@ -290,7 +300,7 @@ const OurStory = () => {
                 <>
                     <div>
                         <div className="row">
-                            <div className="col-6 p-5">
+                            <div className="col-12 col-md-6 p-5">
                                 <div className="">
                                     <div>
                                         <h4>Our Commitment to Our Communities</h4>
@@ -321,7 +331,7 @@ const OurStory = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6 p-5">
+                            <div className="col-12 col-md-6 p-5">
                                 <div className="h-100" style={{ overflow: 'hidden', position: 'relative' }}>
                                     <img src={image4} style={{ position: "absolute", height: '100%' }} />
                                 </div>
@@ -337,13 +347,23 @@ const OurStory = () => {
         <>
             <div>
                 <div>
-                    <div className="fw-bold">
+                    <div className="fw-bold d-none d-md-block">
                         <button className="btnlink fw-bold" onClick={() => setPage(1)} id="btn2">Forward From Our CEO</button>
                         <button className="fw-bold btnlink" onClick={() => setPage(2)} id="btn1">Our Vision, Mission and Values</button>
                         <button className="btnlink fw-bold" onClick={() => setPage(3)} id="btn3">Who we are</button>
                         <button className="btnlink fw-bold" onClick={() => setPage(4)} id="btn3">Our Community Commitment</button>
                     </div>
                     <div style={{ backgroundColor: '#ddd' }}>
+                        <div className="d-flex justify-content-between">
+                            {page == 1 ? 
+                            <button disabled  className="btn btn-light rounded-0">previouse</button>
+
+                            :
+                            <button onClick={() => decrement()}  className="btn rounded-0 btn-light">previouse</button>
+                            
+                        }
+                        <button onClick={() => increment()} className="btn btn-light rounded-0 ">next</button>
+                        </div>
                         <div>
                             <Pagenumber />
                         </div>

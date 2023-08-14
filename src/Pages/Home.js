@@ -54,14 +54,14 @@ const HomePage = () => {
                     <div className='text-black'>
                         <div className='p-3'>
                             <div className='row'>
-                                <div className='col-1'></div>
-                                <div className='col-10 fw-light'>
+                                <div className='col-md-1'></div>
+                                <div className='col-md-10 col-12 fw-light'>
                                     <div>
                                         <div>
                                             <div className='fs-2'>Company overview</div>
                                             <div className='fs-5'>
                                                 <div className='row'>
-                                                    <div className='col-6'>
+                                                    <div className='col-12 col-md-6'>
                                                         <p>
                                                         Quamech Engineering Services offer a one stop solution through
                                                          the different divisions that form an integral part of the company. 
@@ -81,7 +81,7 @@ const HomePage = () => {
                                                          workflow in operations.
                                                         </p>
                                                     </div>
-                                                    <div className='col-6'>
+                                                    <div className='col-12 col-md-6'>
                                                         <p>
                                                         Quamech Engineering Services’ target and supply of the mining, engineering and
                                                          construction, steel mills, food and beverage, transport, agriculture, energy
@@ -135,13 +135,13 @@ const HomePage = () => {
                             <div className='mt-5'>
                                 <div>
                                     <div className='row'>
-                                        <div className='col-1'></div>
-                                        <div className='col-10'>
+                                        <div className='col-md-1'></div>
+                                        <div className='col-12 col-md-10'>
                                             <div className='fw-light' style={{minHeight:'100vh'}}>
                                             <OurStory />
                                             </div>
                                         </div>
-                                        <div className='col-1'></div>
+                                        <div className='col-md-1'></div>
                                     </div>
                                 </div>
                             </div>

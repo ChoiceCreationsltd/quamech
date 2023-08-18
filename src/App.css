@@ -38,3 +38,11 @@
   color: #ddd;
   background-color: #aaa;
 }
+
+.contx:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: ease all 0.5s;
+}
+.contx {
+  transition: all ease 0.5s;
+}

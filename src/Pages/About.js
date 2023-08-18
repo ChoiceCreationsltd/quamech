@@ -8,14 +8,16 @@ const About = () => {
                         <div className=''>
                             <div className="">
                                 <div className=" p-5" style={{ maxWidth: '700px', position: 'absolute', right: '0', top: '60px', bottom: '60px', backgroundColor: 'rgba(0,0,0,0.7)' }}>
-                                    <div className=" h-100">
-                                        <div className='text-white fs-3'>
-                                            striving for exxellence in all we do is our habit
-                                            we are always looking for opportunities
-                                            to grow more and serve better
-                                        </div>
-                                        <div className='mt-5'>
-                                            <button className='btn px-5 btn-outline-light rounded-5 btn-lg'>Contact us</button>
+                                    <div className="d-flex justify-content-center flex-column h-100">
+                                        <div>
+                                            <div className='text-white fs-2'>
+                                                Striving for exxellence in all we do is our habit
+                                                we are always looking for opportunities
+                                                to grow more and serve better
+                                            </div>
+                                            <div className='mt-5'>
+                                                <button className='btn px-5 btn-outline-light rounded-5 btn-lg'>Contact us</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

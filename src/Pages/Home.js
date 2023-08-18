@@ -1,6 +1,6 @@
-import image from '../Images/image1.jpg'
-import image1 from '../Images/image1.png'
-import image2 from '../Images/gear-metal-wheels-close-up.jpg'
+import image from '../Images/2.png'
+import image1 from '../Images/3 steps.png'
+import image2 from '../Images/3 steps1.png'
 import image3 from '../Images/close-up-metal-gears-3d-rendering.jpg'
 import image4 from '../Images/gears-cogwheels.jpg'
 import { BsGearWideConnected } from 'react-icons/bs'
@@ -13,15 +13,8 @@ const HomePage = () => {
     const Cont = (props) => {
         return (
             <>
-                <div className='col-md-4 p-2 col-6 text-center' style={{transform:'translateY(-70px)', zIndex:'1'}}>
-                    <div className='d-flex shadow-lg justify-content-center bg-light flex-column' style={{ height: '200px'}}>
-                        <div className='p-3'>
-                            <BsGearWideConnected size={90} />
-                            <div className='py-3 h4' style={{}}>
-                                {props.value}
-                            </div>
-                        </div>
-                    </div>
+                <div className='col-md-4 p-2 col-12 text-center' style={{transform:'translateY(-70px)', zIndex:'1'}}>
+                    <img src={props.value} width='100%'/>
                 </div>
             </>
         )
@@ -40,9 +33,9 @@ const HomePage = () => {
                                     <div className='col-12 col-md-8'>
                                         <div >
                                             <div className='row'>
-                                                <Cont value='MECHANICAL ENGINEERING'/>
-                                                <Cont value='CIVIL & STRUCTUAL ENGINEERING' />
-                                                <Cont value='SUPPLY AND INSTALLATION' />
+                                                <Cont value={image}/>
+                                                <Cont value={image1}/>
+                                                <Cont value={image2} />
                                             </div>
                                         </div>
                                     </div>
@@ -80,8 +73,6 @@ const HomePage = () => {
                                                         Along with problem-solving, we also initiate new ideas and skills to enhance
                                                          workflow in operations.
                                                         </p>
-                                                    </div>
-                                                    <div className='col-12 col-md-6'>
                                                         <p>
                                                         Quamech Engineering Services’ target and supply of the mining, engineering and
                                                          construction, steel mills, food and beverage, transport, agriculture, energy
@@ -89,6 +80,8 @@ const HomePage = () => {
                                                           water sanitation, where we have extensive experience and core
                                                          competence offering bespoke/tailored solutions including but not limited to:
                                                         </p>
+                                                    </div>
+                                                    <div className='col-12 col-md-6'>
                                                         <ul>
                                                             <li>
                                                             Plant optimization:

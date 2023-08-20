@@ -26,10 +26,10 @@ const About = () => {
                     </div>
                 </div>
                     <div style={{height:'20px'}} className='bg-danger'></div>
-                <div className='my-5' style={{ minHeight: '100vh' }}>
+                <div className='my-5' style={{ minHeight: '100vh', textAlign:'justify', lineHeight:'25px'}}>
                     <div className='row'>
-                        <div className='col-1'></div>
-                        <div style={{gap:'30px'}}  className='col-10 px-5 bg-white d-flex flex-column fw-light'>
+                        <div className='col-md-1'></div>
+                        <div style={{gap:'30px'}}  className='col-md-10 col-12 px-5 bg-white d-flex flex-column fw-light'>
                             <div className=''>
                                 <div className='fw-bold text-danger fs-3'>
                                     About Us
@@ -157,7 +157,7 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-1'></div>
+                        <div className='col-md-1'></div>
                     </div>
                 </div>
             </div>

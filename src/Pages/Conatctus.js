@@ -13,8 +13,8 @@ const Contact = () => {
                     <div>
                         <div className='p-3'>
                             <div className='row'>
-                                <div className='col-1'></div>
-                                <div className='col-10'>
+                                <div className='col-md-1'></div>
+                                <div className='col-md-10 col-12'>
                                     <div className='row'>
                                         <div className='col-md-4 col-12'>
                                             <div className='py-4'>
@@ -82,7 +82,7 @@ const Contact = () => {
                                         <div className='col-md-8 col-12'>
                                             <div className='py-5'>
                                                 <form>
-                                                    <div className='d-flex' style={{gap:'20px'}}>
+                                                    <div className='d-md-flex ' style={{gap:'20px'}}>
                                                         <div className='w-100 text-start'>
                                                             <div>Email:</div>
                                                             <input required type='email' className='border border-primary text-white p-2 w-100' style={{backgroundColor:'rgba(0,0,0,0)' }}/>
@@ -101,7 +101,7 @@ const Contact = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-1'></div>
+                                <div className='col-md-1'></div>
                             </div>
                         </div>
                     </div>

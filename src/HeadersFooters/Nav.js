@@ -1,12 +1,30 @@
 import { NavLink } from "react-router-dom"
 import { AiOutlineSearch } from 'react-icons/ai'
 import image from '../Images/QWA LOGO.png'
+import {FiMenu} from 'react-icons/fi'
+import { useState } from "react"
 
 const Nav = () => {
+    const [navs, setNav] = useState(false)
+
+    const pushdown = () => {
+        document.getElementById('nav-custom-link-drop').classList.toggle("show")
+    }
+    window.onclick = function(event) {
+        if(!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementById('nav-custom-link-drop');
+            var i; 
+            for(i = 0; i < dropdowns.lengtt; i++) {
+                var openDropdown = dropdowns[i];
+                if(openDropdown.classList.contains('show')){
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
     // const changebg = () => {
     //     let navbar = document.getElementById('navbar-cust');
     //     let scrollValue = window.scrollY;
-
     //     if (scrollValue < 40) {
     //         navbar.classList.remove('navbar-cust');
     //     } else {
@@ -66,6 +84,28 @@ const Nav = () => {
                                                 Contact Us
                                                 <div className="line"></div>
                                             </NavLink>
+                                        </div>
+                                        <div className="d-md-none">
+                                            <div className="text-end">
+                                                <button onClick={() => pushdown()} className="btn dropbtn text-white "><FiMenu size={20} /></button>
+                                            </div>
+                                            <div className="nav-custom-link-drop" id="nav-custom-link-drop">
+                                                <NavLink to='/'>
+                                                    Home
+                                                </NavLink>
+                                                <NavLink to='/About'>
+                                                    About Us
+                                                </NavLink>
+                                                <NavLink to='/Products&Services'>
+                                                    Our Services
+                                                </NavLink>
+                                                <NavLink to='/Company Profile'>
+                                                    Company Profile
+                                                </NavLink>
+                                                <NavLink to='/Contactus'>
+                                                    Contact Us
+                                                </NavLink>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

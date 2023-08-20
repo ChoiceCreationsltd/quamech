@@ -33,9 +33,9 @@ const HomePage = () => {
                                     <div className='col-12 col-md-8'>
                                         <div >
                                             <div className='row'>
-                                                <Cont value={image}/>
                                                 <Cont value={image1}/>
                                                 <Cont value={image2} />
+                                                <Cont value={image}/>
                                             </div>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@ const HomePage = () => {
                                             <div className='fs-2'>Company overview</div>
                                             <div className='fs-5'>
                                                 <div className='row'>
-                                                    <div className='col-12 col-md-6'>
+                                                    <div className='col-12 col-md-6' style={{lineHeight:'25px', textAlign:'justify'}}>
                                                         <p>
                                                         Quamech Engineering Services offer a one stop solution through
                                                          the different divisions that form an integral part of the company. 
@@ -130,7 +130,7 @@ const HomePage = () => {
                                     <div className='row'>
                                         <div className='col-md-1'></div>
                                         <div className='col-12 col-md-10'>
-                                            <div className='fw-light' style={{minHeight:'100vh'}}>
+                                            <div className='fw-light' style={{minHeight:'100vh',lineHeight:'25px'}}>
                                             <OurStory />
                                             </div>
                                         </div>

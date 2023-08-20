@@ -33,9 +33,9 @@ const decrement = () => {
                 <>
                     <div>
                         <div className="row">
-                            <div className="col-12 col-md-6 p-5">
+                            <div className="col-12 col-md-6 px-4 py-5">
                                 <div className="">
-                                    <div>
+                                    <div >
                                         <h3>Message from Our CEO</h3>
                                         <p>
                                             Dear partners, colleagues and friends,
@@ -46,59 +46,64 @@ const decrement = () => {
                                             handle problems in a faster and more cost-saving way,
                                             discover new markets, invent innovative profit generation and introduce new kinds of customer relationships.
                                         </p>
-                                        <p>
-                                            Happily, we can rise to these challenges with the help of modern digital technologies.
-                                            On the one hand, these mature technologies are powerful enough to tackle most practical tasks.
-                                            On the other hand, they have become widely available to everybody,
-                                            not only to the largest and wealthiest businesses, as it used to be not so long ago.
-                                        </p>
-                                        <p>
-                                            In my opinion, PROFICIENCY IN THE USE OF DIGITAL TECHNOLOGIES to address customers'
-                                            challenges in an ever-changing and unpredictable environment is Quamech Engineering
-                                            Services’ main competitive edge. This know-how includes two components: TECHNOLOGY
-                                            EXPERTISE AND INDUSTRY EXPERIENCE. Indeed, we have been accumulating expertise for
-                                            10+ years in the market, and enhancing it with mergers with and acquisitions o
-                                            f specialized companies.
-                                        </p>
-                                        <p>
-                                            Industry experience means that our profound knowledge of real problems faced by
-                                            customers extends to Mechanical Engineering, Designing, Installation, Repairing and
-                                            Maintenance of Mechanical machineries and equipment, Supply, Construction and dozens
-                                            of other industries-and we have learned best practices to deal with them all.
-                                        </p>
-                                        <p>
-                                            We understand full well that a good business partner must be 100% reliable and act in
-                                            a prompt and flexible fashion. At this point, Quamech Engineering Services’ second
-                                            advantage, NAMELY HIGH OPERATIONAL EFFICIENCY, comes to the fore.
-                                        </p>
-                                        <p>
-                                            It is enabled by world-class professional management, special efforts to maintain
-                                            financial resilience, and automation of business processes.
-                                        </p>
-                                        <p>
-                                            The third advantage of our company is versatility. We do not only supply our customers
-                                            with any products and services available on the market but also build SOPHISTICATED
-                                            SOLUTIONS WITH HIGH INTELLECTUAL VALUE ADDED.
-                                        </p>
-                                        <p>
-                                            I am confident that our understanding of the right approach to general supply and
-                                            engineering goes well beyond merely solving the technical problems of our customers
-                                            to create opportunities for innovation and new growth. The list of our clients includes
-                                            leading market players, sugar mills, mining, engineering and construction, steel mills,
-                                            food and beverage, transport, agriculture, energy and solar power, pulp and paper
-                                            , chemical and petrochemical and water sanitation, government agencies, medium and
-                                            small businesses-and all of them have a good reason to trust us with challenging
-                                            and expensive projects.
-                                        </p>
-                                        <p>
-                                            Welcome to Quamech Engineering Services. We are here to help you succeed.
-                                        </p>
-                                        <p>
-                                            Steve,<br />
-                                            C.E.O and Founder
+                                        <span className="hide" id="hiden">
+                                            <p>
+                                                Happily, we can rise to these challenges with the help of modern digital technologies.
+                                                On the one hand, these mature technologies are powerful enough to tackle most practical tasks.
+                                                On the other hand, they have become widely available to everybody,
+                                                not only to the largest and wealthiest businesses, as it used to be not so long ago.
+                                            </p>
+                                            <p>
+                                                In my opinion, PROFICIENCY IN THE USE OF DIGITAL TECHNOLOGIES to address customers'
+                                                challenges in an ever-changing and unpredictable environment is Quamech Engineering
+                                                Services’ main competitive edge. This know-how includes two components: TECHNOLOGY
+                                                EXPERTISE AND INDUSTRY EXPERIENCE. Indeed, we have been accumulating expertise for
+                                                10+ years in the market, and enhancing it with mergers with and acquisitions o
+                                                f specialized companies.
+                                            </p>
+                                            <p>
+                                                Industry experience means that our profound knowledge of real problems faced by
+                                                customers extends to Mechanical Engineering, Designing, Installation, Repairing and
+                                                Maintenance of Mechanical machineries and equipment, Supply, Construction and dozens
+                                                of other industries-and we have learned best practices to deal with them all.
+                                            </p>
+                                            <p>
+                                                We understand full well that a good business partner must be 100% reliable and act in
+                                                a prompt and flexible fashion. At this point, Quamech Engineering Services’ second
+                                                advantage, NAMELY HIGH OPERATIONAL EFFICIENCY, comes to the fore.
+                                            </p>
+                                            <p>
+                                                It is enabled by world-class professional management, special efforts to maintain
+                                                financial resilience, and automation of business processes.
+                                            </p>
+                                            <p>
+                                                The third advantage of our company is versatility. We do not only supply our customers
+                                                with any products and services available on the market but also build SOPHISTICATED
+                                                SOLUTIONS WITH HIGH INTELLECTUAL VALUE ADDED.
+                                            </p>
+                                            <p>
+                                                I am confident that our understanding of the right approach to general supply and
+                                                engineering goes well beyond merely solving the technical problems of our customers
+                                                to create opportunities for innovation and new growth. The list of our clients includes
+                                                leading market players, sugar mills, mining, engineering and construction, steel mills,
+                                                food and beverage, transport, agriculture, energy and solar power, pulp and paper
+                                                , chemical and petrochemical and water sanitation, government agencies, medium and
+                                                small businesses-and all of them have a good reason to trust us with challenging
+                                                and expensive projects.
+                                            </p>
+                                            <p>
+                                                Welcome to Quamech Engineering Services. We are here to help you succeed.
+                                            </p>
+                                            <p>
+                                                Steve,<br />
+                                                C.E.O and Founder
 
 
-                                        </p>
+                                            </p>
+                                        </span>
+                                        <div onClick={() => document.getElementById('hiden').classList.toggle('hide')}>
+                                            more...
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +125,7 @@ const decrement = () => {
                             <div className="col-12 col-md-6 p-5">
                                 <div className="">
                                     <div>
-                                        <h4>Our Mission</h4>
+                                        <h4>Our Vission</h4>
                                         <p>
                                             We will enrich daily life and society by contributing to technological development.
                                             Also to create value for our shareholders by:
@@ -364,7 +369,7 @@ const decrement = () => {
                         }
                         <button onClick={() => increment()} className="btn btn-light rounded-0 ">next</button>
                         </div>
-                        <div>
+                        <div className="" style={{textAlign:'justify'}}>
                             <Pagenumber />
                         </div>
                     </div>

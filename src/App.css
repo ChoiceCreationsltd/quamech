@@ -46,3 +46,27 @@
 .contx {
   transition: all ease 0.5s;
 }
+
+.nav-custom-link-drop {
+  transition: ease 0.5s;
+  position: absolute;
+  display: none;
+  background-color: rgba(21, 84, 154);
+  left: 0;
+  right:0;
+}
+.nav-custom-link-drop a {
+  padding: 10px 10px;
+}
+.show{
+  display: flex;
+  flex-direction: column;
+}
+.nav-custom-link-drop a {
+  color: white;
+  text-decoration: none;
+}
+
+.hide{
+  display: none;
+}
